@@ -77,3 +77,28 @@ input:disabled {
   background: #444;
   color: #777;
 }
+
+.flatpickr-calendar {
+  font-family: 'e-Ukraine', sans-serif;
+  background: #222;
+  color: #00ff99;
+}
+
+.flatpickr-day {
+  font-family: 'e-Ukraine', sans-serif;
+  color: #00ff99;
+}
+
+.flatpickr-day.today {
+  border-color: #00cc66;
+}
+
+.flatpickr-day.selected {
+  background: #00cc66;
+  border-color: #00cc66;
+}
+
+.flatpickr-day:hover {
+  background: #444;
+  border-color: #444;
+}
